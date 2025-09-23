@@ -1,0 +1,73 @@
+body{
+    justify-items: center;
+    margin-top: 17%;
+}
+
+.container{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 0.5px rgb(66, 66, 66);        
+    width: 400px;
+    height: 300px;
+    justify-items: center;
+}
+
+.titulo{
+    justify-content: center;
+    display: flex;
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+
+.botao{
+    justify-content: center;
+    display: flex;
+    padding-top: 25px;
+    border-radius: 100px;
+}
+
+.bordinha{
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+
+.nome{
+    justify-content: center;
+    justify-items: center;
+    justify-items: center;
+    display: flex;  
+}
+
+.peso{
+    justify-content: center;
+    justify-items: center;
+    justify-items: center;
+    display: flex;
+}
+
+.altura{
+    justify-content: center;
+    justify-items: center;
+    justify-items: center;
+    display: flex;
+}
+
+:hover.bordinha{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.coiso{
+    border: 1px solid black;
+    background-color: rgb(248, 248, 248);
+    border-radius: 5px;
+    height: 25px;
+    color: rgb(0, 0, 0);
+    padding-right: 100px;
+}

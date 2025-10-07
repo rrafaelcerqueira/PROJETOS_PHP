@@ -6,21 +6,21 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <form action="inclusao.php" method="GET">
-        <h2>Cadastro Bonitinho</h2>
-        <label for="nome">Nome do carro:</label>
-        <input type="text" id="nome_carro" name="nome_carro" required />
+    <form action="logar.php" method="POST">
+        <h2>LOGIN</h2>
 
-        <label for="nome">Nome do dono:</label>
-        <input type="text" id="nome_dono" name="nome_dono" required />
+        <label for="nome"></label>
+        <input type="text" id="nome_dono" name="nome_dono" placeholder="Nome" required />
 
-        <label for="nome">Marca do carro:</label>
-        <input type="text" id="marca" name="marca_carro" required />
+        <label for="senha"></label>
+        <input type="text" id="placa" name="placa_carro" placeholder="Placa do Carro" required />
 
-        <label for="senha">Placa do carro:</label>
-        <input type="text" id="placa" name="placa_carro" required />
+        Não possue conta? <a href="cadastro.php"> Cadastre -  se </a>
 
-        <button type="submit">Enviar</button>
+        <br>
+        <br>
+
+        <button type="submit">LOGAR</button>
     </form>
 </body>
 </html>

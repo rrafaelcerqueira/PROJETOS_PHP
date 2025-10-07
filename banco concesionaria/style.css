@@ -8,7 +8,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    padding: 20px; /* para evitar que encoste na borda em telas pequenas */
+    padding: 20px; /* para evitar que encoste na borda em telas pequenas*/
 }
 
 form {
@@ -67,15 +67,27 @@ button:hover {
     background-color: #357ABD;
 }
 
-/* Responsividade */
-@media (max-width: 400px) {
-    form {
-        padding: 20px;
-        max-width: 100%;
-    }
+.botaovolta {
+    justify-content: center;
+    display: flex;
+    width: 91.5%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #4a90e2;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
 
-    input[type="text"], input[type="email"], button {
-        font-size: 14px;
-        padding: 10px;
-    }
+.botaovolta:hover {
+    background-color: #357ABD;
+}
+
+
+a {
+    text-decoration: none;
 }
